@@ -1,0 +1,16 @@
+{
+  "name": "shop-server",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "@paypal/checkout-server-sdk": "^1.0.3",
+    "@sendgrid/mail": "^7.7.0",
+    "axios": "^1.4.0",
+    "pdfkit": "^0.13.0"
+  }
+}
